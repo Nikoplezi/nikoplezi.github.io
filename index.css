@@ -1,1 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Press+Start+2P&display=swap');
 @import url("styles/globals.css");
+
+.arcade-body {
+    background: linear-gradient(135deg, #0f1021 0%, #232357 100%);
+    min-height: 100vh;
+    font-family: 'Press Start 2P', 'Orbitron', 'Arial Black', cursive, sans-serif;
+    color: #39ff14;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.arcade-title, .arcade-subtitle {
+    text-shadow: 0 0 12px #00fff7, 0 0 24px #39ff14, 0 0 4px #fff;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.arcade-title {
+    font-size: 2.5rem;
+    color: #39ff14;
+    border-bottom: 4px double #00fff7;
+    padding-bottom: 0.5rem;
+    text-shadow: 0 0 16px #00fff7, 0 0 32px #39ff14, 0 0 8px #fff;
+}
+
+.arcade-subtitle {
+    font-size: 1.5rem;
+    color: #00fff7;
+    text-shadow: 0 0 8px #39ff14, 0 0 16px #00fff7;
+}
+
+.arcade-list {
+    background: rgba(15, 16, 33, 0.85);
+    border: 2px solid #39ff14;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 0 24px #00fff7, 0 0 12px #39ff14;
+    margin-top: 2rem;
+    width: 90vw;
+    max-width: 600px;
+}
+
+.arcade-list-item {
+    font-size: 1.2rem;
+    margin: 1rem 0 1rem 1.5rem;
+    text-shadow: 0 0 6px #00fff7, 0 0 2px #39ff14;
+    color: #39ff14;
+}
+
+.arcade-link {
+    color: #fff200;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px dashed #00fff7;
+    transition: color 0.2s, border-color 0.2s, text-shadow 0.2s;
+    text-shadow: 0 0 6px #39ff14, 0 0 2px #00fff7;
+}
+
+.arcade-link:hover {
+    color: #00fff7;
+    border-color: #39ff14;
+    text-shadow: 0 0 12px #fff200, 0 0 24px #00fff7;
+}
